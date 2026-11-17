@@ -36,7 +36,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Link href="/">
-              <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={500} height={167} className="h-14 w-auto" priority />
+              <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={500} height={167} className="h-14 w-auto" priority />
             </Link>
             <div className="hidden md:flex items-center gap-6">
               <Link href="/product" className="text-sm font-medium hover:opacity-70 transition-colors" style={{ color: NAVY }}>Product</Link>
@@ -77,16 +77,16 @@ export default function ContactPage() {
                 <div className="space-y-3 text-sm text-gray-600">
                   <div>
                     <p className="font-semibold text-xs uppercase tracking-widest mb-1" style={{ color: ACCENT }}>Email</p>
-                    <a href="mailto:support@ascverify.com" className="hover:underline" style={{ color: NAVY }}>support@ascverify.com</a>
+                    <a href="mailto:support@lifeeaseconcierge.com" className="hover:underline" style={{ color: NAVY }}>support@lifeeaseconcierge.com</a>
                   </div>
                   <div>
                     <p className="font-semibold text-xs uppercase tracking-widest mb-1" style={{ color: ACCENT }}>Phone</p>
-                    <a href="tel:+18445461613" className="hover:underline" style={{ color: NAVY }}>(844) 546-1613</a>
+                    <a href="tel:+1855-743-8920" className="hover:underline" style={{ color: NAVY }}>(855) 743-8920</a>
                   </div>
                   <div>
                     <p className="font-semibold text-xs uppercase tracking-widest mb-1" style={{ color: ACCENT }}>Mailing address</p>
-                    <p>2000 NE 42nd Ave PMB 1251</p>
-                    <p>Portland, OR 97213</p>
+                    <p>1500 Market Street Suite 3200</p>
+                    <p>Philadelphia, PA 19102</p>
                   </div>
                   <div>
                     <p className="font-semibold text-xs uppercase tracking-widest mb-1" style={{ color: ACCENT }}>Hours</p>
@@ -98,7 +98,7 @@ export default function ContactPage() {
 
               <div className="rounded-2xl p-6" style={{ background: ACCENT_BG, border: `1px solid ${ACCENT}20` }}>
                 <p className="text-sm font-semibold mb-2" style={{ color: NAVY }}>For employers</p>
-                <p className="text-sm text-gray-600 mb-4">Interested in offering ASC Verify as an employee benefit? Book a free demo with our team.</p>
+                <p className="text-sm text-gray-600 mb-4">Interested in offering LifeEase Concierge as an employee benefit? Book a free demo with our team.</p>
                 <Link href="/consultation" className="inline-block px-4 py-2.5 rounded-lg text-sm font-semibold text-white" style={{ background: '#0f2744' }}>
                   Book a Demo →
                 </Link>
@@ -111,7 +111,7 @@ export default function ContactPage() {
                 <div className="rounded-2xl p-10 text-center" style={{ background: '#fff', border: '1px solid #e8e4dc' }}>
                   <div className="text-5xl mb-4">✅</div>
                   <h3 className="text-xl font-bold mb-2" style={{ color: NAVY }}>Message received!</h3>
-                  <p className="text-gray-600">We&apos;ll get back to you within one business day. If it&apos;s urgent, call us at (844) 546-1613.</p>
+                  <p className="text-gray-600">We&apos;ll get back to you within one business day. If it&apos;s urgent, call us at (855) 743-8920.</p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="rounded-2xl p-8 space-y-5" style={{ background: '#fff', border: '1px solid #e8e4dc' }}>
@@ -196,7 +196,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={160} height={54} className="h-10 w-auto mb-3 brightness-0 invert" />
+              <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={160} height={54} className="h-10 w-auto mb-3 brightness-0 invert" />
               <p className="text-sm leading-relaxed">Personal concierge and virtual assistance services for employees.</p>
             </div>
             <div>
@@ -220,19 +220,19 @@ export default function ContactPage() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
                 <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
-                <li className="pt-1">support@ascverify.com</li>
-                <li>(844) 546-1613</li>
+                <li className="pt-1">support@lifeeaseconcierge.com</li>
+                <li>(855) 743-8920</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-            <span>&copy; 2025 ASC Verify. All rights reserved.</span>
+            <span>&copy; 2025 LifeEase Concierge. All rights reserved.</span>
             <div className="flex items-center gap-4">
-              <a href="https://share.google/gkJZbE5yqyGnlMaPA" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="Google My Business">
+              <a href="https://g.page/lifeease-concierge" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="Google My Business">
                 <img src="/google-logo.svg" alt="Google My Business" className="w-5 h-5" />
                 <span className="text-xs" style={{ color: '#94a3b8' }}>Google</span>
               </a>
-              <a href="https://www.linkedin.com/company/asc-verify/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="LinkedIn">
+              <a href="https://www.linkedin.com/company/lifeease-concierge" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="LinkedIn">
                 <img src="/linkedin-logo.svg" alt="LinkedIn" className="w-5 h-5" />
                 <span className="text-xs" style={{ color: '#94a3b8' }}>LinkedIn</span>
               </a>

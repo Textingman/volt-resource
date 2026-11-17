@@ -86,7 +86,7 @@ export default function SignupPage() {
             {/* Logo */}
             <div className="flex justify-center mb-6">
               <Link href="/">
-                <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={160} height={54} className="h-12 w-auto" />
+                <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={160} height={54} className="h-12 w-auto" />
               </Link>
             </div>
 
@@ -177,7 +177,7 @@ export default function SignupPage() {
                 <div className="mb-4 rounded-xl p-4" style={{ background: ACCENT_BG, border: `1px solid ${ACCENT}30` }}>
                   <Checkbox checked={su.smsOptIn} onChange={() => setSu({ ...su, smsOptIn: !su.smsOptIn })}>
                     <span>
-                      By checking this box and submitting this form, you agree to receive concierge service and account notification text messages from ASC Verify and agree to our <Link href="/terms" className="underline" style={{ color: NAVY }}>Terms &amp; Conditions</Link> and <Link href="/privacy" className="underline" style={{ color: NAVY }}>Privacy Policy</Link>. I understand I may opt out of SMS communication by replying &apos;STOP&apos;. Reply HELP for assistance or email <a href="mailto:support@ascverify.com" className="underline" style={{ color: NAVY }}>support@ascverify.com</a> for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or to use our services. All messages will be handled by ASC Verify. I also agree to the <Link href="/terms" className="underline" style={{ color: NAVY }}>Terms of Service</Link> and <Link href="/privacy" className="underline" style={{ color: NAVY }}>Privacy Policy</Link>.
+                      By checking this box and submitting this form, you agree to receive concierge service and account notification text messages from LifeEase Concierge and agree to our <Link href="/terms" className="underline" style={{ color: NAVY }}>Terms &amp; Conditions</Link> and <Link href="/privacy" className="underline" style={{ color: NAVY }}>Privacy Policy</Link>. I understand I may opt out of SMS communication by replying &apos;STOP&apos;. Reply HELP for assistance or email <a href="mailto:support@lifeeaseconcierge.com" className="underline" style={{ color: NAVY }}>support@lifeeaseconcierge.com</a> for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or to use our services. All messages will be handled by LifeEase Concierge. I also agree to the <Link href="/terms" className="underline" style={{ color: NAVY }}>Terms of Service</Link> and <Link href="/privacy" className="underline" style={{ color: NAVY }}>Privacy Policy</Link>.
                     </span>
                   </Checkbox>
                 </div>
@@ -258,7 +258,7 @@ export default function SignupPage() {
                 <svg className="w-3.5 h-3.5 inline mr-1 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
-                Secured by ASC Verify
+                Secured by LifeEase Concierge
               </p>
             </div>
           </div>

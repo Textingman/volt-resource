@@ -37,7 +37,7 @@ export default function PrivacyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Link href="/" className="flex-shrink-0">
-              <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={500} height={167} className="h-14 w-auto" priority />
+              <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={500} height={167} className="h-14 w-auto" priority />
             </Link>
             <div className="hidden md:flex items-center gap-6">
               {NAV_LINKS.map(l => (
@@ -65,7 +65,7 @@ export default function PrivacyPage() {
 
           <div>
             <h2 className="text-xl font-bold mb-3" style={{ color: NAVY }}>1. Introduction</h2>
-            <p>ASC Verify ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our personal concierge service and website.</p>
+            <p>LifeEase Concierge ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our personal concierge service and website.</p>
           </div>
 
           <div>
@@ -140,7 +140,7 @@ export default function PrivacyPage() {
               <li><strong>Portability:</strong> Request a copy of your information in a portable format</li>
               <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
             </ul>
-            <p>To exercise these rights, please contact us at <a href="mailto:privacy@ascverify.com" className="hover:underline" style={{ color: ACCENT }}>privacy@ascverify.com</a>.</p>
+            <p>To exercise these rights, please contact us at <a href="mailto:privacy@lifeeaseconcierge.com" className="hover:underline" style={{ color: ACCENT }}>privacy@lifeeaseconcierge.com</a>.</p>
           </div>
 
           <div>
@@ -167,9 +167,9 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-bold mb-3" style={{ color: NAVY }}>12. Contact Us</h2>
             <p className="mb-4">If you have any questions about this Privacy Policy, please contact us:</p>
             <div className="rounded-2xl p-6" style={{ background: '#fff', border: '1px solid #e8e4dc' }}>
-              <p className="mb-2 text-sm"><strong style={{ color: NAVY }}>Email:</strong> <a href="mailto:privacy@ascverify.com" className="hover:underline" style={{ color: ACCENT }}>privacy@ascverify.com</a></p>
-              <p className="mb-2 text-sm"><strong style={{ color: NAVY }}>Support:</strong> <a href="mailto:support@ascverify.com" className="hover:underline" style={{ color: ACCENT }}>support@ascverify.com</a></p>
-              <p className="text-sm"><strong style={{ color: NAVY }}>Phone:</strong> <a href="tel:+18445461613" className="hover:underline" style={{ color: ACCENT }}>(844) 546-1613</a></p>
+              <p className="mb-2 text-sm"><strong style={{ color: NAVY }}>Email:</strong> <a href="mailto:privacy@lifeeaseconcierge.com" className="hover:underline" style={{ color: ACCENT }}>privacy@lifeeaseconcierge.com</a></p>
+              <p className="mb-2 text-sm"><strong style={{ color: NAVY }}>Support:</strong> <a href="mailto:support@lifeeaseconcierge.com" className="hover:underline" style={{ color: ACCENT }}>support@lifeeaseconcierge.com</a></p>
+              <p className="text-sm"><strong style={{ color: NAVY }}>Phone:</strong> <a href="tel:+1855-743-8920" className="hover:underline" style={{ color: ACCENT }}>(855) 743-8920</a></p>
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function PrivacyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={160} height={54} className="h-10 w-auto mb-3 brightness-0 invert" />
+              <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={160} height={54} className="h-10 w-auto mb-3 brightness-0 invert" />
               <p className="text-sm leading-relaxed">Personal concierge and virtual assistance services for employees.</p>
             </div>
             <div>
@@ -204,19 +204,19 @@ export default function PrivacyPage() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
                 <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
-                <li className="pt-1">support@ascverify.com</li>
-                <li>(844) 546-1613</li>
+                <li className="pt-1">support@lifeeaseconcierge.com</li>
+                <li>(855) 743-8920</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-            <span>&copy; 2025 ASC Verify. All rights reserved.</span>
+            <span>&copy; 2025 LifeEase Concierge. All rights reserved.</span>
             <div className="flex items-center gap-4">
-              <a href="https://share.google/gkJZbE5yqyGnlMaPA" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="Google My Business">
+              <a href="https://g.page/lifeease-concierge" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="Google My Business">
                 <img src="/google-logo.svg" alt="Google My Business" className="w-5 h-5" />
                 <span className="text-xs" style={{ color: '#94a3b8' }}>Google</span>
               </a>
-              <a href="https://www.linkedin.com/company/asc-verify/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="LinkedIn">
+              <a href="https://www.linkedin.com/company/lifeease-concierge" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="LinkedIn">
                 <img src="/linkedin-logo.svg" alt="LinkedIn" className="w-5 h-5" />
                 <span className="text-xs" style={{ color: '#94a3b8' }}>LinkedIn</span>
               </a>

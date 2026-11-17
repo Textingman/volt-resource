@@ -38,7 +38,7 @@ export default function ConsultationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Link href="/" className="flex-shrink-0">
-              <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={500} height={167} className="h-14 w-auto" priority />
+              <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={500} height={167} className="h-14 w-auto" priority />
             </Link>
             <div className="hidden md:flex items-center gap-6">
               {NAV_LINKS.map(l => (
@@ -63,7 +63,7 @@ export default function ConsultationPage() {
         </span>
         <h1 className="text-4xl font-bold text-white mb-3" style={{ fontFamily: 'Georgia, serif' }}>Book Your Free Demo</h1>
         <p className="text-lg max-w-2xl mx-auto" style={{ color: '#94a3b8' }}>
-          Learn how ASC Verify&apos;s personal concierge service can benefit your employees. We&apos;ll walk you through everything in 30 minutes or less.
+          Learn how LifeEase Concierge&apos;s personal concierge service can benefit your employees. We&apos;ll walk you through everything in 30 minutes or less.
         </p>
       </div>
 
@@ -168,7 +168,7 @@ export default function ConsultationPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={160} height={54} className="h-10 w-auto mb-3 brightness-0 invert" />
+              <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={160} height={54} className="h-10 w-auto mb-3 brightness-0 invert" />
               <p className="text-sm leading-relaxed">Personal concierge and virtual assistance services for employees.</p>
             </div>
             <div>
@@ -187,19 +187,19 @@ export default function ConsultationPage() {
               <h4 className="text-white font-semibold mb-3 text-sm">Legal & Contact</h4>
               <ul className="space-y-2 text-sm">
                 {FOOTER_LINKS.legal.map(l => <li key={l.href}><Link href={l.href} className="hover:text-white transition-colors">{l.label}</Link></li>)}
-                <li className="pt-1">support@ascverify.com</li>
-                <li>(844) 546-1613</li>
+                <li className="pt-1">support@lifeeaseconcierge.com</li>
+                <li>(855) 743-8920</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-            <span>&copy; 2025 ASC Verify. All rights reserved.</span>
+            <span>&copy; 2025 LifeEase Concierge. All rights reserved.</span>
             <div className="flex items-center gap-4">
-              <a href="https://share.google/gkJZbE5yqyGnlMaPA" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="Google My Business">
+              <a href="https://g.page/lifeease-concierge" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="Google My Business">
                 <img src="/google-logo.svg" alt="Google My Business" className="w-5 h-5" />
                 <span className="text-xs" style={{ color: '#94a3b8' }}>Google</span>
               </a>
-              <a href="https://www.linkedin.com/company/asc-verify/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="LinkedIn">
+              <a href="https://www.linkedin.com/company/lifeease-concierge" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="LinkedIn">
                 <img src="/linkedin-logo.svg" alt="LinkedIn" className="w-5 h-5" />
                 <span className="text-xs" style={{ color: '#94a3b8' }}>LinkedIn</span>
               </a>

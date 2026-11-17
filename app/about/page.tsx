@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Link href="/" className="flex-shrink-0">
-              <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={500} height={167} className="h-14 w-auto" priority />
+              <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={500} height={167} className="h-14 w-auto" priority />
             </Link>
             <div className="hidden md:flex items-center gap-6">
               <Link href="/product" className="text-sm font-medium hover:opacity-70 transition-colors" style={{ color: NAVY }}>Product</Link>
@@ -42,7 +42,7 @@ export default function AboutPage() {
             We give employees their time back.
           </h1>
           <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            ASC Verify is a personal concierge and virtual assistance service offered exclusively as an employee benefit. We handle life&apos;s everyday tasks so your team can focus on what matters most — at work and at home.
+            LifeEase Concierge is a personal concierge and virtual assistance service offered exclusively as an employee benefit. We handle life&apos;s everyday tasks so your team can focus on what matters most — at work and at home.
           </p>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 Modern employees are stretched thin. Between demanding jobs, family responsibilities, and the endless stream of errands and appointments, there&apos;s rarely enough time in the day.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                ASC Verify was built to change that. We partner with employers to offer a dedicated concierge service that handles the tasks employees don&apos;t have time for — from scheduling doctor appointments to booking travel, coordinating home repairs, and everything in between.
+                LifeEase Concierge was built to change that. We partner with employers to offer a dedicated concierge service that handles the tasks employees don&apos;t have time for — from scheduling doctor appointments to booking travel, coordinating home repairs, and everything in between.
               </p>
             </div>
             <div className="rounded-2xl p-8 text-center" style={{ background: ACCENT_BG }}>
@@ -92,16 +92,16 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6" style={{ color: NAVY, fontFamily: 'Georgia, serif' }}>Company information</h2>
           <div className="rounded-2xl p-8" style={{ background: IVORY, border: '1px solid #e8e4dc' }}>
-            <p className="font-semibold text-lg mb-1" style={{ color: NAVY }}>ASC Verify</p>
+            <p className="font-semibold text-lg mb-1" style={{ color: NAVY }}>LifeEase Concierge</p>
             <p className="text-gray-500 mb-4">Personal Concierge &amp; Virtual Assistance Services</p>
             <div className="space-y-2 text-sm text-gray-600">
-              <p>2000 NE 42nd Ave PMB 1251</p>
-              <p>Portland, OR 97213</p>
+              <p>1500 Market Street Suite 3200</p>
+              <p>Philadelphia, PA 19102</p>
               <p className="pt-2">
-                <a href="mailto:support@ascverify.com" className="hover:underline" style={{ color: ACCENT }}>support@ascverify.com</a>
+                <a href="mailto:support@lifeeaseconcierge.com" className="hover:underline" style={{ color: ACCENT }}>support@lifeeaseconcierge.com</a>
               </p>
               <p>
-                <a href="tel:+18445461613" className="hover:underline" style={{ color: ACCENT }}>(844) 546-1613</a>
+                <a href="tel:+1855-743-8920" className="hover:underline" style={{ color: ACCENT }}>(855) 743-8920</a>
               </p>
             </div>
           </div>
@@ -121,7 +121,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={160} height={54} className="h-10 w-auto mb-3 brightness-0 invert" />
+              <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={160} height={54} className="h-10 w-auto mb-3 brightness-0 invert" />
               <p className="text-sm leading-relaxed">Personal concierge and virtual assistance services for employees.</p>
             </div>
             <div>
@@ -145,19 +145,19 @@ export default function AboutPage() {
               <ul className="space-y-2 text-sm">
                 <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
                 <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
-                <li className="pt-1">support@ascverify.com</li>
-                <li>(844) 546-1613</li>
+                <li className="pt-1">support@lifeeaseconcierge.com</li>
+                <li>(855) 743-8920</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-            <span>&copy; 2025 ASC Verify. All rights reserved.</span>
+            <span>&copy; 2025 LifeEase Concierge. All rights reserved.</span>
             <div className="flex items-center gap-4">
-              <a href="https://share.google/gkJZbE5yqyGnlMaPA" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="Google My Business">
+              <a href="https://g.page/lifeease-concierge" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="Google My Business">
                 <img src="/google-logo.svg" alt="Google My Business" className="w-5 h-5" />
                 <span className="text-xs" style={{ color: '#94a3b8' }}>Google</span>
               </a>
-              <a href="https://www.linkedin.com/company/asc-verify/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="LinkedIn">
+              <a href="https://www.linkedin.com/company/lifeease-concierge" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity" title="LinkedIn">
                 <img src="/linkedin-logo.svg" alt="LinkedIn" className="w-5 h-5" />
                 <span className="text-xs" style={{ color: '#94a3b8' }}>LinkedIn</span>
               </a>

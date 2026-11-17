@@ -154,7 +154,7 @@ export default function RegisterPage() {
           <div className="p-8 sm:p-10">
             {/* Logo */}
             <div className="flex justify-center mb-6">
-              <Image src="/ASC Verify Logo.png" alt="ASC Verify" width={160} height={54} className="h-12 w-auto" />
+              <Image src="/LifeEase Concierge Logo.png" alt="LifeEase Concierge" width={160} height={54} className="h-12 w-auto" />
             </div>
 
             {/* Step indicator */}
@@ -287,7 +287,7 @@ export default function RegisterPage() {
                       </div>
                     </div>
                     <span className="text-sm leading-relaxed" style={{ color: 'rgba(148,163,184,1)' }}>
-                      <span className="font-semibold text-white">I agree to receive SMS messages</span> from ASC Verify regarding my concierge service requests, appointment confirmations, and account updates. Message & data rates may apply. Reply STOP to opt out at any time.
+                      <span className="font-semibold text-white">I agree to receive SMS messages</span> from LifeEase Concierge regarding my concierge service requests, appointment confirmations, and account updates. Message & data rates may apply. Reply STOP to opt out at any time.
                     </span>
                   </label>
                 </div>
@@ -295,7 +295,7 @@ export default function RegisterPage() {
                 {/* TCPA disclosure */}
                 <div className="mb-6 rounded-xl p-3" style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)' }}>
                   <p className="text-xs leading-relaxed" style={{ color: 'rgba(71,85,105,1)' }}>
-                    By opting in, you consent to receive automated text messages from ASC Verify at the number provided. This consent is not a condition of purchase or employment. Message frequency varies. For help, reply HELP. View our{' '}
+                    By opting in, you consent to receive automated text messages from LifeEase Concierge at the number provided. This consent is not a condition of purchase or employment. Message frequency varies. For help, reply HELP. View our{' '}
                     <Link href="/privacy" className="underline" style={{ color: 'rgba(100,116,139,1)' }}>Privacy Policy</Link>{' '}and{' '}
                     <Link href="/terms" className="underline" style={{ color: 'rgba(100,116,139,1)' }}>Terms of Service</Link>.
                   </p>
